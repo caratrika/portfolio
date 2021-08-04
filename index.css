@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.banner{
+    width:100%;
+    min-height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.418),rgba(109, 107, 107, 0.418)),url("pic/sillery_gaon.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+/*.campus-col{
+    
+    
+    background-image:linear-gradient(rgba(0,0,0,0.418),rgba(109, 107, 107, 0.418)),url("image folder/lava.jpg");
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100vh;
+    padding-left:680px;
+}*/
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 2% 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin:0 20px;
+    position:relative;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color:#fff;
+    text-transform:uppercase;
+}
+.navbar ul li::after{
+    content:'';
+    height:3px;
+    width:0%;
+    background:#009688;
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+}
+.navbar ul li:hover::after{
+    width:100%;
+
+}
+.content{
+    width:100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:#fff;
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.content h2{
+    margin:20px auto;
+    font-size: 30px;
+    font-weight: 150;
+    line-height:30px;
+}
+@media(max-width: 700px){
+    .content h1{
+        font-size: 70px;
+        margin-top: 20px; 
+    }
+    .navbar{
+    display:block;
+    }
+    .navbar{
+    position:absolute;
+    background:#fff;
+    height:100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index:2;
+    }
+}
+.about{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
+}
+h2{
+    font-size:46px;
+    font-weight:600;
+}
+p{
+    font-size:25px;
+    font-weight:300;
+    line-height:35px;
+    padding:10px;
+    
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius:50px;
+    margin-bottom:30px;
+    position:relative;
+    overflow:hidden;
+}
+.campus-col img{
+    width:10%;
+    height:30vh;
+    padding-left:680px;
+    display:block;
+    
+}
+@media(max-width: 700px){
+    .campus-col img{
+        width:100%;
+        
+        padding-left:500px;
+        
+    }
+}
+
+/*-----education page------*/
+
+.sub-header{
+    height:60vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("pic/Graduation-Cap.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+}
+.sub-header h1{
+    font-size:60px;
+    margin-top:60px;
+    
+}
+
+/*---FOOTER---*/
+.footer{
+    width:100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top:20px;
+    font-weight:600; 
+}
+.education{
+    width:40%;
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
+}
+.education h2{
+    font-size:40px;
+    font-weight:580;
+
+}
+.education p{
+    font-size:20px;
+    font-weight:280;
+    line-height:30px;
+    padding:10px;
+    
+}
+.education h3{
+    
+    font-size:30px;
+    font-weight:1000; 
+}
+.skillsheader{
+    height:60vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("pic/skills.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+}
+.skillsheader h1{
+    font-size:60px;
+    margin-top:60px;
+}
+.skills{
+    width:20%;
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
+}
+.skills h2{
+    font-size:40px;
+    font-weight:580;
+
+}
+@media(max-width: 700px){
+    .skillsheader{
+        width:100%;
+        height: 100vh
+        
+        
+    }
+}
+/**achievement**/
+.achsheader{
+    height:60vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("pic/R.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+}
+.achsheader h1{
+    font-size:60px;
+    margin-top:60px;
+}
+.achievements{
+    width:55%;
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
+}
+.achievements h2{
+    font-size:40px;
+    font-weight:580;
+
+}
+.achievements h3{
+    font-size:30px;
+    font-weight:480;
+
+}
+.achievements p{
+    font-size:20px;
+    font-weight:280;
+    line-height:30px;
+    padding:10px;
+    
+}
+.conheader{
+    height:60vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("pic/contact.JPG");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color:#fff;
+}
+.conheader h1{
+    font-size:60px;
+    margin-top:60px;
+}
+.contact{ padding:0; margin:0 auto; display:block; text-align:center; overflow:hidden; width:80%;}
+.contact > div{ width:auto;  display:inline-block; padding-left:-4px; box-sizing:border-box; vertical-align:top }
+
+.location{
+    width:80%;
+    margin:auto;
+    padding:80px 0;
+
+}
+.location iframe{
+    width:100%;
+}
+.loc{
+    height:5vh;
+    width:50px;
+    object-position: center;
+}
+.phone{
+    height:5vh;
+    width:30px;
+}
+.mail{
+    height:5vh;
+    width:30px;
+}
+.row{
+    widows: 80%;
+    margin:auto;
+}
+.row{
+    flex-basis:48%;
+    margin-bottom:30px;
+    padding:80px 0;
+}
+.row{
+    display:flex;
+    align-items:center;
+    margin-bottom:40px;
+    padding:80px 0;
+}
+.row{
+    top:170%;
+    left:60%;  
+}
+.loginbox{
+    width:320px;
+    height:420px;
+    background:#000;
+    color:#fff;
+    display:block; 
+    /*top:200%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);*/
+    
+}
+.loginbox form{
+    padding:0 40px;
+    box-sizing: border-box;
+}
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin:30px 0;
+
+}
+.txt_field input{
+    width:100%;
+    padding:0 5px;
+    height:40px;
+    font-size: 16px;
+    border:none;
+    outline:none;
+}
+.txt_field placeholder{
+    position:absolute;
+    top:50%;
+    left:5px;
+    color:#adadad;
+    transform: translateX(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+.txt_field span::before{
+    content:'';
+    position:absolute;
+    top:40px;
+    left:0;
+    width:100%;
+    height:2px;
+    
+}
