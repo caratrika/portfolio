@@ -6,7 +6,7 @@
 .banner{
     width:100%;
     min-height:100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.418),rgba(109, 107, 107, 0.418)),url("pic/sillery_gaon.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.418),rgba(109, 107, 107, 0.418)),url_for('pic', filename='sillery_gaon.jpg');
     background-size: cover;
     background-position: center;
     
@@ -136,7 +136,7 @@ p{
 .sub-header{
     height:60vh;
     width:100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("pic/Graduation-Cap.jpg");
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url_for('pic', filename='Graduation-Cap.jpg');
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -185,7 +185,7 @@ p{
 .skillsheader{
     height:60vh;
     width:100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("pic/skills.jpg");
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url_for('pic', filename='skills.jpg');
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -218,7 +218,7 @@ p{
 .achsheader{
     height:60vh;
     width:100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("pic/R.jpg");
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url_for('pic', filename='R.jpg');
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -254,7 +254,7 @@ p{
 .conheader{
     height:60vh;
     width:100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("pic/contact.JPG");
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url_for('pic', filename='contact.jpg');
     background-position: center;
     background-size: cover;
     text-align: center;
