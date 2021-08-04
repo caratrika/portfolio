@@ -31,7 +31,8 @@
                 
                 <th class="header">
                    <td class="data"> <div>
-                        <a href="https//www.google.com/maps"><img class="loc" src="pic/your-location[214].png" alt="loc"></a>
+                        <a href="https//www.google.com/maps"><img class="loc" src="{{ url_for('pic', filename='your-location[214].png'}} alt="loc"></a>
+                       
                         <span>
                             
                             <p>Behala,Kolkata,West Bengal</p>
@@ -41,7 +42,8 @@
                     <th class="header">
                         <td class="data">
                             <div>
-                                <img class="phone" src="pic/phone[215].png" alt="phone">
+                                
+                            <img class="phone" src="{{ url_for('pic', filename='phone[215].png'}} alt="phone">
                                 <span>
                                     <p>+91 8420118548</p>
                             
@@ -52,7 +54,7 @@
                     <th class="header">
                         <td class="data">
                             <div>
-                                <img class="mail" src="pic/email.png" alt="mail">
+                                <img class="mail" src="{{ url_for('pic', filename='email.png'}} alt="mail">
                                 <span>
                                     <p>caratrika27@gmail.com</p>
                             
